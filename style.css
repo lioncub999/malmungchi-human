@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+td, th {
+    vertical-align: middle;
+}
+
+
+textarea {
+    width : 230px;
+}
+
+button  {
+    width : 70px;
+    height : 80px;
+}
+
+input {
+    width : 100px;
+    height : 50px;
+}

@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    font-family: 'SUITE-Regular';
+}
+
+body {
+    margin : 0px;
+    padding : 0px;
+
+
+    background-color: rgba(49, 49, 51, 1);
+}
+
+div, input, p {
+    box-sizing: border-box;
+}
+
+h2, p {
+    padding-left : 30px;
+    padding-right : 30px;
+
+    margin : 0px;
+    margin-top : 5px;
+}
+
+.top-menu {
+    width : 100%;
+    height : 80px;
+
+    color : white;
+    background : rgba(33, 33, 33, 1);
+}
+
+.contents {
+    height : calc(100vh - 90px);
+
+    padding : 20px 50px 0px 50px;
+}
+
+.org-sentence {
+    font-size : 22px;
+    float: left;
+    width : 50%;
+    height : 600px;
+
+    color : white;
+    background : black;
+}
+
+.spc-label {
+    float: left;
+    margin-left : 50px;
+    width : 40%;
+    height : 280px;
+        
+    background : black;
+}
+
+.spc-original-label {
+    float: left;
+    margin-left : 50px;
+    margin-top : 40px;
+    width : 40%;
+    height : 280px;
+        
+    background : black;
+}
+
+.move-page {
+    line-height: 100px;
+    clear: both;
+    margin : auto;
+    position : relative;
+    top : 20px;
+    display: block;
+    width : 450px;
+    height : 100px;
+
+    color : white;
+}
+
+button {
+    color : white;
+    font-size: 40px;
+    width : 80px;
+    height : 80px;
+    border : none;
+    border-radius: 40px;
+    background : #007bff;
+
+    cursor: pointer;
+
+    transition : all 0.2s;
+}
+button:hover {
+    background : #0052aa;
+}
+
+input {
+    font-size : 20px;
+    margin-left : 20px;
+    margin-right : 10px;
+    width : 100px;
+    height : 50px;
+    padding : 10px;
+}
+
+.prev-button {
+    margin-top : 8px;
+    float : left;
+}
+
+.next-button {
+    margin-top : 8px;
+    float : right;
+}
+
+.move-button {
+    font-size : 20px;
+    height : 60px;
+    border-radius: 10px;
+    color : black;
+
+    background : rgb(102, 102, 102);
+    color : white;
+}
+
+.spc-label, .spc-original-label {
+    color : white;
+}
+
+textarea {
+    display: block;
+    margin : auto;
+    margin-top : 20px;
+    font-size : 40px;
+    width : 90%;
+    background : lightgrey;
+    border-radius: 10px;
+    height : 150px;
+    padding : 10px;
+}
+
+.copy {
+    font-size : 15px;
+    width : 50px;
+    height : 30px;
+    margin-left : 10px;
+
+    background :rgb(219, 84, 84);
+
+    color : white;
+}
+
+.copy:hover {
+    background : rgb(163, 63, 63);
+}
+
+.search-box {
+    width : 450px;
+    display : block;
+    margin : auto;
+    margin-top : 100px;
+    height : 100px;
+}
+
+.search-box p {
+    margin-top : 50px;
+    font-weight: bold;
+}
+
+.search-input {
+    width : 300px;
+    height : 60px;
+    float: left;
+    border-radius: 10px;
+}
+
+.search-btn {
+    font-size : 20px;
+    float: left;
+    width : 100px;
+    height : 60px;
+}
+
+.alert {
+    text-align: center;
+    opacity: 0;
+    width : 100px;
+    height : 50px;
+    padding : 15px;
+
+    color : black;
+    position : absolute; 
+    top : 20px;
+    left : 500px;
+    background : white;
+    border-radius: 15px;
+
+
+    transition : all 1s;
+
+}
+
+.alert.show {
+    opacity : 1;
+    transition : all 1s;
+}
+
+.org-sentence, .spc-label, .spc-original-label {
+    border-radius: 15px;
+}
+.movepage_num {
+    border-radius : 15px;
+    text-align: center;
+}
+
+.search_copy {
+    border-radius : 10px;
+    margin-left : 10px;
+    margin-right : 10px;
+    width : 150px;
+}
